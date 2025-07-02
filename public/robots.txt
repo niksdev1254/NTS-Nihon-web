@@ -1,0 +1,55 @@
+User-agent: *
+Allow: /
+
+# SEO-optimized sitemap
+Sitemap: https://ntsnihonglobal.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Block admin and sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.env
+Disallow: /config/
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /verticals
+Allow: /careers
+Allow: /contact
+Allow: /blog
+
+# Specific locations for SEO
+# India
+Allow: /india/mumbai
+Allow: /india/delhi
+Allow: /india/bangalore
+Allow: /india/chennai
+Allow: /india/pune
+Allow: /india/hyderabad
+Allow: /india/kolkata
+Allow: /india/ahmedabad
+Allow: /india/jaipur
+Allow: /india/lucknow
+
+# Japan
+Allow: /japan/tokyo
+Allow: /japan/osaka
+Allow: /japan/kyoto
+Allow: /japan/yokohama
+Allow: /japan/nagoya
+Allow: /japan/sapporo
+Allow: /japan/kobe
+Allow: /japan/fukuoka
+Allow: /japan/hiroshima
+Allow: /japan/sendai
+
+# Global markets
+Allow: /usa
+Allow: /singapore
+Allow: /uk
+Allow: /germany
+Allow: /australia
+Allow: /canada
